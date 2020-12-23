@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Turret+Road:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="/scripts/main.js"></script>
     <title>JALC</title>
 </head>
 <body>
     <header class="site-header">
         <div class="hero">
             <div class="contenedor-hero">
-                <h1>CREAMOS TU PÁGINA WEB</h1>
+                <h1>JALC</h1>
+                <h2>TE DIGITALIZAMOS</h2>
                 <p>Síguenos en:</p>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-facebook-square"></i>
@@ -20,13 +23,56 @@
         </div>
         <nav>
             <a href="#">Nosotros</a>
-            <a href="#">Blog</a>
             <a href="#">Contáctanos</a>
             <a href="#">Trabajos</a>
         </nav>
     </header>
     <main class="contenedor">
-
+        <div class="ofrecemos">
+            <div class="oferta">
+                <i class="fas fa-paint-brush"></i>
+                <p>Diseñamos tu logo</p>
+            </div>
+            <div class="oferta">
+                <i class="fas fa-globe"></i>
+                <p>Páginas web estáticas y dinámicas</p>
+            </div>
+            <div class="oferta">
+                <i class="far fa-list-alt"></i>
+                <p>Catálogos en línea</p>
+            </div>
+        </div>
     </main>
+    <div>
+        <h2>Contacto</h2>
+        <form action="" class="form">
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label for="name">Nombre: </label>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre">
+                </div>
+                <div class="campo">
+                    <label for="last_name">Apellidos: </label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Apellidos">
+                </div>
+                <div class="campo">
+                    <label for="service">Servicio de interes:</label>
+                    <select name="service" id="service">
+                        <option selected> Selecciona una opción</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="email">Correo eléctronico: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="enviar">
+                    <button type="submit" class="btn">
+                        Envíar
+                        <i class="far fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
